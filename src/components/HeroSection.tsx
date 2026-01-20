@@ -83,9 +83,6 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className="order-1 lg:order-2 flex justify-center animate-fade-in">
             <div className="relative">
-              {/* Decorative ring */}
-              <div className="absolute -inset-4 rounded-full border-2 border-primary/20 animate-pulse" />
-              <div className="absolute -inset-8 rounded-full border border-primary/10" />
               
               {/* Image container */}
               <div className="relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden border-4 border-primary/30">
