@@ -88,7 +88,7 @@ const HeroSection = () => {
               <div className="absolute -inset-8 rounded-full border border-primary/10" />
               
               {/* Image container */}
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30">
+              <div className="relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden border-4 border-primary/30">
                 <img
                   src={profileImage}
                   alt="Sihle Lucingo - Software Developer"
