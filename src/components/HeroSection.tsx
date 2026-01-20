@@ -36,7 +36,7 @@ const HeroSection = () => {
             <p className="animate-fade-in-delay text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8">
               A passionate and driven software developer with a strong foundation in 
               Python development, web technologies, and emerging cloud solutions. 
-              Currently pursuing my Diploma in Information Technology while gaining 
+              Completed my Diploma in Information Technology while gaining 
               real-world experience through internships.
             </p>
 
