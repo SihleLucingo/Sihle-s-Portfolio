@@ -1,16 +1,13 @@
 import { ArrowDown, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import profileImage from "@/assets/sihle-profile.jpg";
-
 const HeroSection = () => {
-  return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center relative overflow-hidden"
-    >
+  return <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 left-1/4 w-72 h-72 bg-primary/3 rounded-full blur-3xl animate-float" style={{ animationDelay: "3s" }} />
+        <div className="absolute bottom-1/4 left-1/4 w-72 h-72 bg-primary/3 rounded-full blur-3xl animate-float" style={{
+        animationDelay: "3s"
+      }} />
       </div>
 
       <div className="section-container relative z-10">
@@ -45,36 +42,20 @@ const HeroSection = () => {
                 View My Work
                 <ArrowDown size={18} />
               </a>
-              <a
-                href="#contact"
-                className="px-6 py-3 font-medium rounded-lg border border-border hover:border-primary transition-colors inline-flex items-center justify-center gap-2"
-              >
+              <a href="#contact" className="px-6 py-3 font-medium rounded-lg border border-border hover:border-primary transition-colors inline-flex items-center justify-center gap-2">
                 Contact Me
               </a>
             </div>
 
             {/* Social Links */}
             <div className="animate-fade-in-delay-2 flex items-center gap-4 mt-8 justify-center lg:justify-start">
-              <a
-                href="https://github.com/SihleLucingo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-              >
+              <a href="https://github.com/SihleLucingo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
                 <Github size={18} />
               </a>
-              <a
-                href="https://linkedin.com/in/sihle-lucingo-aaa568247"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-              >
+              <a href="https://linkedin.com/in/sihle-lucingo-aaa568247" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
                 <Linkedin size={18} />
               </a>
-              <a
-                href="mailto:lucingosihle@gmail.com"
-                className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-              >
+              <a href="mailto:lucingosihle@gmail.com" className="w-10 h-10 rounded-lg border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors">
                 <Mail size={18} />
               </a>
             </div>
@@ -86,11 +67,7 @@ const HeroSection = () => {
               
               {/* Image container */}
               <div className="relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden border-4 border-primary/30">
-                <img
-                  src={profileImage}
-                  alt="Sihle Lucingo - Software Developer"
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Sihle Lucingo - Software Developer" className="w-full h-full object-cover" src="/lovable-uploads/8907f679-3cbd-43f7-9675-c15b1ce2d075.jpg" />
               </div>
 
               {/* Floating badge */}
@@ -106,8 +83,6 @@ const HeroSection = () => {
           <ArrowDown className="text-muted-foreground" size={24} />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
