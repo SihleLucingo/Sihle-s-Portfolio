@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -34,11 +35,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="font-display font-bold text-primary-foreground text-lg">
-                SL
-              </span>
-            </div>
+            <img src={logo} alt="SL Logo" className="w-10 h-10 rounded-lg object-cover" />
             <span className="font-display font-semibold text-lg hidden sm:block">
               Sihle Lucingo
             </span>
