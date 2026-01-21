@@ -1,4 +1,5 @@
 import { Heart } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -9,11 +10,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="font-display font-bold text-primary-foreground text-sm">
-                SL
-              </span>
-            </div>
+            <img src={logo} alt="SL Logo" className="w-8 h-8 rounded-lg object-cover" />
             <span className="font-display font-medium">Sihle Lucingo</span>
           </a>
 
